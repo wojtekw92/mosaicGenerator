@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<canvas id="elo" width="640" height="360"></canvas>
+<div>
+<table>
+  <thead>
+  <tr class="header">
+    <th>index X</th>
+    <th>Index Y</th>
+    <th>width</th>
+    <th>height</th>
+    <th>top</th>
+    <th>left</th>
+    <th>LCN</th>
+    <th>actions</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>111</td>
+    <td>23</td>
+    <td>67</td>
+    <td>53</td>
+    <td>22</td>
+    <td>120</td>
+    <td>11</td>
+    <td><i class="material-icons button edit">edit</i>
+        <i class="material-icons button delete">delete</i></td>
+  </tr>
+</tbody>
+</table>
+Select screen size:
+<select>
+ <option value="720">720p</option>
+ <option value="1080">1080p</option>
+ <option value="2160">2160p</option>
+</select> <button id="add-new">Add new frame</button>
+</div>
+<script data-main="scripts/main" src="node_modules/requirejs/require.js"></script>
+</body>
+</html>

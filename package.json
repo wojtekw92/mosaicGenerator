@@ -1,0 +1,15 @@
+{
+  "name": "mosaic-generator",
+  "version": "1.0.0",
+  "description": "mosaic JSON data generator for mosaicFeature",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wojciech Wozniak <wwozniak92@gmail.com> (http://github.com/wojtekw92)",
+  "license": "ISC",
+  "dependencies": {
+    "fabric": "^1.7.3",
+    "requirejs": "^2.3.2"
+  }
+}
